@@ -432,8 +432,8 @@ import { CommonModule } from '@angular/common';
         <!--  WELCOME  -->
         <div id="welcome">
           <h1>
-            <span> Hello there, </span>
-            Welcome angular-nestjs-template 👋
+            <span> Hello there, Kevin</span>
+            Welcome client 👋
           </h1>
         </div>
         <!--  HERO  -->
@@ -475,6 +475,7 @@ import { CommonModule } from '@angular/common';
           <div id="middle-left-content">
             <div id="learning-materials" class="rounded shadow">
               <h2>Learning materials</h2>
+              
               <a
                 href="https://nx.dev/getting-started/intro?utm_source=nx-project"
                 target="_blank"
@@ -802,7 +803,7 @@ nx run-many -t build test lint</pre>
               </svg>
               View project details
             </summary>
-            <pre>nx show project angular-nestjs-template</pre>
+            <pre>nx show project client</pre>
           </details>
 
           <details>
@@ -865,6 +866,7 @@ nx g &#64;nx/angular:component ui/src/lib/button</pre>
           </svg>
         </p>
       </div>
+      
     </div>
   `,
   styles: [],
